@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>update expense</h1>
+    <a href="/expense-list">Back to list</a>
+    <form>
+        <input type="text" value="<%= expense.category %>" name="category" placeholder="category">
+        <input type="number" value="<%= expense.price %>" name="price" placeholder="price">
+        <button>update</button>
+    </form>
+
+    <script src="/js/updateExpense.js"></script>
+</body>
+</html>
